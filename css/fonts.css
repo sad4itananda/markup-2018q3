@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Lato-Medium";
+	src: url("../fonts/Lato-Medium.ttf");
+}
+@font-face {
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+	font-family: "Lato-Semibold";
+	src: url("../fonts/Lato-Semibold.ttf");
+}
+@font-face {
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.ttf");
+}
+h1 	{
+	font-size: 24px;
+	font-family: "Lato-Bold";
+	/* font-weight: bold; */
+}
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+.price {
+	font-size: 24px;
+	font-family: "Lato-Bold";
+}
+.price span:first-child {
+font-size: 14px;
+vertical-align: top;
+}
+.price span:last-child {
+	font-size: 14px;
+	color: lightgrey;
+}
+p {
+	font-family: "Lato-Regular";
+	font-size: 17px;
+	color: grey;
+	line-height: 1.5;
+	font-stretch: expanded;
+}
+.header-hello :first-child {
+	font-size: 68px;
+	font-family:  sans-serif;
+	font-weight: bold;
+	font-stretch: normal;
+}
+.header-hello :nth-child(n+2) {
+	font-family: serif;
+	font-style: italic;
+	font-size: 34px;
+}
+.members p {
+	font-size:21px;
+	font-family:  "Lato-Bold";
+}
+.header-menu {
+	font-family: "Lato-Medium";
+}
+.domain-want ::placeholder, select {
+	color: lightgray;
+}
+.foot-content {
+	line-height: 2;
+}
